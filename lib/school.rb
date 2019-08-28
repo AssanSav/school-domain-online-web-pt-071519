@@ -20,7 +20,7 @@ class School
   end
   
   def sort 
-    @roster.
+    @roster.sort{|a, b| a <=> b}
   end
   
 end
