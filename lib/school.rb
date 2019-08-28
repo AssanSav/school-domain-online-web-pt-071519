@@ -20,9 +20,11 @@ class School
   end
   
   def sort
-    binding.pry
-    @roster
-    
+    arr = []
+    @roster.each do |k, v| 
+      arr[k] = v.sort!
+    end
+    arr
   end
   
 end
