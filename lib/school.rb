@@ -19,9 +19,11 @@ class School
     arr.flatten
   end
   
-  def sort 
-    @roster.map {|key, value| value.sort}
+  def sort
+    arr = []
+    @roster.each {|key, value| arr << value.sort}
     #binding.pry
+    arr
   end
   
 end
