@@ -14,11 +14,13 @@ class School
   end
   
   def grade(grade)
-    @roster.find_all do |key, value|
+    arr = []
+    @roster.each do |key, value|
       if key == grade 
-        value.flatten
+        arr << value
       end
     end
+    arr.flatten
   end
   
 end
