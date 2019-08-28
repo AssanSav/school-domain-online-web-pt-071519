@@ -13,4 +13,11 @@ class School
     @roster[grade] << name
   end
   
+  def grade(grade)
+    @roster.map do |key, value|
+      if key == grade 
+        value
+    end
+  end
+  
 end
