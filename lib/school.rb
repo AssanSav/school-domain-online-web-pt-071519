@@ -10,7 +10,7 @@ class School
   
   def add_student(name, grade)
     @roster ||= []
-    @roster[grade] = grade
+    if @roster[grade] == grade
     @roster[grade] = name 
   end
   
