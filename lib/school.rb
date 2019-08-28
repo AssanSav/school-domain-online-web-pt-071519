@@ -19,4 +19,8 @@ class School
     arr.flatten
   end
   
+  def sort 
+    @roster.
+  end
+  
 end
