@@ -16,7 +16,7 @@ class School
   def grade(grade)
     @roster.find_all do |key, value|
       if key == grade 
-        value
+        value.flatten
       end
     end
   end
