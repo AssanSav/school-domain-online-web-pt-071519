@@ -20,7 +20,7 @@ class School
   end
   
   def sort 
-    @roster.sort_by {|key, value| value}.reverse
+    @roster.sort_by_value #{|key, value| value}.reverse
     #binding.pry
   end
   
