@@ -13,5 +13,6 @@ class School
     if @roster[grade] == grade
     @roster[grade] = name 
   end
+  end
   
 end
