@@ -17,6 +17,7 @@ class School
     @roster.map do |key, value|
       if key == grade 
         value
+      end
     end
   end
   
