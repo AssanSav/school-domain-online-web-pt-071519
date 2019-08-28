@@ -21,7 +21,7 @@ class School
   
   def sort
     arr = []
-    @roster.each {|key, value| arr[key] << value.sort}
+    @roster.each {|key, value| arr[key] = value.sort}
     #binding.pry
     arr
   end
