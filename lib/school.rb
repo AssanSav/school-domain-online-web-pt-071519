@@ -20,7 +20,7 @@ class School
   end
   
   def sort 
-    @roster#.sort{|a, b| a <=> b}
+    @roster.sort_by {|key, value| value}
     binding.pry
   end
   
