@@ -20,7 +20,8 @@ class School
   end
   
   def sort 
-    @roster.sort{|a, b| a <=> b}
+    @roster#.sort{|a, b| a <=> b}
+    binding.pry
   end
   
 end
