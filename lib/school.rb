@@ -14,7 +14,7 @@ class School
   end
   
   def grade(grade)
-    @roster.map do |key, value|
+    @roster.find_all do |key, value|
       if key == grade 
         value
       end
