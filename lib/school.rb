@@ -20,9 +20,10 @@ class School
   end
   
   def sort
-    arr = []
+    arr = {}
     @roster.each do |k, v| 
       arr[k] = v.sort!
+      
     end
     arr
   end
