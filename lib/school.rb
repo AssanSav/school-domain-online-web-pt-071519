@@ -22,6 +22,7 @@ class School
   def sort
     arr = {}
     @roster.map {|k, v| arr[k] = v.sort!}
+    arr
   end
   
 end
