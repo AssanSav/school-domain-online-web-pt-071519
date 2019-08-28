@@ -20,7 +20,8 @@ class School
   end
   
   def sort
-    @roster.map {|k, v| k = v.sort!}
+    arr = {}
+    @roster.map {|k, v| arr[k] = v.sort!}
   end
   
 end
