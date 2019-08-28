@@ -20,8 +20,8 @@ class School
   end
   
   def sort
-    @roster.sort_by {|k, v| k[v]}
-    #binding.pry
+    @roster.sort_by {|k, v| }
+    binding.pry
   end
   
 end
